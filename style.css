@@ -231,38 +231,6 @@ ul{
    background-position: top center;
    background-size: cover;
 }
-
-/* if you want to add person.jpg and audio.png separately on eachother */
-
-/* .audio::before{
-    content: ' ';
-    background-image: url(images/person.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    position: absolute;
-    z-index: -2;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
-.audio::after{
-    content: ' ';
-    position: absolute;
-    background-image: url(images/sound.png);
-    bottom: -250px;
-    left:0;
-    right: 0;
-    width: 100%;
-    background-repeat: no-repeat;
-    height: 150vh;
-    background-position: bottom center;
-    background-size: cover;
-    z-index: -1;
-} */
 .audio__inner{
     min-height: 220vh;
     display: flex;
